@@ -39,7 +39,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="food-menu.php">Foods</a>
+                                    <a class="nav-link" href="#">Foods</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -60,40 +60,6 @@
                         required>
                     <button class="btn btn-outline-hotpink" type="submit">Search</button>
                 </form>
-            </div>
-        </div>
-    </section>
-    <!-- Explore Foods -->
-    <section>
-        <div class="container-fluid">
-            <div class="row mb-4 mt-4">
-                <div class="col-md-12 text-center">
-                    <h1>Explore Foods</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 ms-auto me-auto">
-                    <div class="row justify-content-md-evenly">
-                        <div class="col-md-4 col-sm-12 text-center">
-                            <a href="#">
-                                <img src="assets/img/pizza.jpg" alt="" class="img-fluid rounded-3">
-                                <h3 class="form-floating">Pizza</h3>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-sm-12 text-center">
-                            <a href="#">
-                                <img src="assets/img/burger.jpg" alt="" class="img-fluid rounded-3">
-                                <h3 class="form-floating">Burger</h3>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-sm-12 text-center">
-                            <a href="#">
-                                <img src="assets/img/momo.jpg" alt="" class="img-fluid rounded-3">
-                                <h3 class="form-floating">Momo</h3>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -139,7 +105,23 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row mb-4">
+                        <div class="col-md-6">
+                            <div class="card br-15">
+                                <div class="card-body">
+                                    <div class="col-md-3 f-l">
+                                        <img src="assets/img/menu-pizza.jpg" alt="" class="img-fluid br-15">
+                                    </div>
+                                    <div class="col-md-7 f-l ms-md-4 mt-sm-4">
+                                        <h5 class="card-text fw-bold">Mixed Pizza</h5>
+                                        <h5>$6.00</h5>
+                                        <p class="card-text opacity-25">Best Firewood Pizza in Town</p>
+                                        <a href="#" class="btn btn-outline-hotpink" type="submit">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <div class="card br-15">
                                 <div class="card-body">
@@ -156,6 +138,8 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="row mb-4">
                         <div class="col-md-6">
                             <div class="card br-15">
                                 <div class="card-body">
