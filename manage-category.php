@@ -40,11 +40,11 @@
     <section class=" bg-gray-200">
         <div class="container-fluid">
             <div class="row mb-5 pt-5">
-                <h2 class="fw-bold">Manage Food</h2>
+                <h2 class="fw-bold">Manage Category</h2>
             </div>
 
             <div class="row-cols-6 mb-4">
-                <button type="button" class="btn btn-primary">Add Food</button>
+                <button type="button" class="btn btn-primary">Add Category</button>
             </div>
 
         </div>
@@ -59,9 +59,6 @@
                             <th class="col-2">
                                 Title
                             </th>
-                            <th class="col-1">
-                                Price
-                            </th>
                             <th class="col-2">
                                 Image
                             </th>
@@ -71,7 +68,7 @@
                             <th class="col-1">
                                 Active
                             </th>
-                            <th class="col-4">
+                            <th class="col-5">
                                 Actions
                             </th>
                         </tr>
@@ -82,41 +79,11 @@
                                 1.
                             </td>
                             <td class="col-2">
-                                Dumplings Specials
-                            </td>
-                            <td class="col-1">
-                                $5.00
+                                Pizza
                             </td>
                             <td class="col-2">
-                                <img src="assets/img/menu-momo.jpg" alt="" class="img-fluid">
-                            </td>
-                            <td class="col-1">
-                                Yes
-                            </td>
-                            <td class="col-1">
-                                Yes
-                            </td>
-                            <td class="col-2">
-                                <button class="btn bd-teal-400 fw-bold">
-                                    Update Food
-                                </button>
-                                <button class="btn btn-outline-hotpink fw-bold">
-                                    Delete Food
-                                </button>
-                            </td>
-                        </tr>
-                        <tr class="table align-middle container-fluid">
-                            <td class="col-1">
-                                2.
-                            </td>
-                            <td class="col-2">
-                                Best Burger
-                            </td>
-                            <td class="col-1">
-                                $4.00
-                            </td>
-                            <td class="col-2">
-                                <img src="assets/img/menu-burger.jpg" alt="" class="img-fluid">
+                                <img src="assets/img/pizza.jpg" alt="" class="img-fluid">
+
                             </td>
                             <td class="col-1">
                                 Yes
@@ -125,11 +92,37 @@
                                 Yes
                             </td>
                             <td class="col-5">
-                                <button class="btn bd-teal-400 fw-bold">
-                                    Update Food
+                                <button class="btn bd-teal-400 text-dark fw-bold">
+                                    Update Category
                                 </button>
                                 <button class="btn btn-outline-hotpink fw-bold">
-                                    Delete Food
+                                    Delete Category
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="table align-middle container-fluid">
+                            <td class="col-1">
+                                2.
+                            </td>
+                            <td class="col-2">
+                                Burger
+                            </td>
+                            <td class="col-2">
+                                <img src="assets/img/burger.jpg" alt="" class="img-fluid">
+
+                            </td>
+                            <td class="col-1">
+                                Yes
+                            </td>
+                            <td class="col-1">
+                                Yes
+                            </td>
+                            <td class="col-5">
+                                <button class="btn bd-teal-400 text-dark fw-bold">
+                                    Update Category
+                                </button>
+                                <button class="btn btn-outline-hotpink fw-bold">
+                                    Delete Category
                                 </button>
                             </td>
                         </tr>
@@ -138,26 +131,24 @@
                                 3.
                             </td>
                             <td class="col-2">
-                                Smoky BBQ pizza
-                            </td>
-                            <td class="col-1">
-                                $4.00
+                                Momo
                             </td>
                             <td class="col-2">
-                                <img src="assets/img/menu-pizza.jpg" alt="" class="img-fluid">
+                                <img src="assets/img/momo.jpg" alt="" class="img-fluid">
                             </td>
                             <td class="col-1">
-                                No
+                                Yes
+
                             </td>
                             <td class="col-1">
                                 Yes
                             </td>
-                            <td class="col-4">
-                                <button class="btn bd-teal-400 fw-bold">
-                                    Update Food
+                            <td class="col-5">
+                                <button class="btn bd-teal-400 text-dark fw-bold">
+                                    Update Category
                                 </button>
                                 <button class="btn btn-outline-hotpink fw-bold">
-                                    Delete Food
+                                    Delete Category
                                 </button>
                             </td>
                         </tr>
@@ -165,92 +156,24 @@
                             <td class="col-1">
                                 4.
                             </td>
-
                             <td class="col-2">
-                                Sadeko Momo
+                                Quia est ipsum id id
                             </td>
-
-                            <td class="col-1">
-                                $6.00
-                            </td>
-
                             <td class="col-2">
-                                <img src="assets/img/menu-momo.jpg" alt="" class="img-fluid">
-                            </td>
-                            <td class="col-1">
-                                Yes
-                            </td>
-                            <td class="col-1">
-                                Yes
-                            </td>
-                            <td class="col">
-                                <button class="btn bd-teal-400 fw-bold">
-                                    Update Food
-                                </button>
-                                <button class="btn btn-outline-hotpink fw-bold">
-                                    Delete Food
-                                </button>
-                            </td>
-                        </tr>
-                        <tr class="table align-middle container-fluid">
-                            <td class="col-1">
-                                5.
-                            </td>
-
-                            <td class="col-2">
-                                Mixed Pizza
-                            </td>
-
-                            <td class="col-1">
-                                $10.00
-                            </td>
-
-                            <td class="col-2">
-                                <img src="assets/img/menu-pizza.jpg" alt="" class="img-fluid">
-                            </td>
-                            <td class="col-1">
-                                Yes
-                            </td>
-                            <td class="col-1">
-                                Yes
-                            </td>
-                            <td class="col">
-                                <button class="btn bd-teal-400 fw-bold">
-                                    Update Food
-                                </button>
-                                <button class="btn btn-outline-hotpink fw-bold">
-                                    Delete Food
-                                </button>
-                            </td>
-                        </tr>
-                        <tr class="table align-middle container-fluid">
-                            <td class="col-1">
-                                6.
-                            </td>
-
-                            <td class="col-2">
-                                Sed ipsum cillum in
-                            </td>
-
-                            <td class="col-1">
-                                $52.00
-                            </td>
-
-                            <td class="col-2" style="color: #ff6b81;">
-                                Image not Added.
+                                <img src="assets/img/bg.jpg" alt="" class="img-fluid">
                             </td>
                             <td class="col-1">
                                 No
                             </td>
                             <td class="col-1">
-                                No
+                                Yes
                             </td>
-                            <td class="col-4">
-                                <button class="btn bd-teal-400 fw-bold">
-                                    Update Food
+                            <td class="col-5">
+                                <button class="btn bd-teal-400 text-dark fw-bold">
+                                    Update Category
                                 </button>
                                 <button class="btn btn-outline-hotpink fw-bold">
-                                    Delete Food
+                                    Delete Category
                                 </button>
                             </td>
                         </tr>
@@ -261,7 +184,7 @@
     </section>
 
     <footer>
-        <div class="row bg-hotpink text-center justify-content-center">
+        <div class="row bg-hotpink text-center justify-content-center m-0">
             <p>
                 2020 All right rerved. Food House. Developed By.
                 <a href="https://vietcodedi.com/login/index.php">CSE485</a>
