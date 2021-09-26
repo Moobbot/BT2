@@ -17,7 +17,7 @@
     <header>
         <ul class="nav justify-content-center fw-bold border-bottom border-3 border-secondary fs-5">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="dashboard.php">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="manage-users.php">Adimin</a>
@@ -214,8 +214,8 @@
     </section>
 
     <footer>
-        <div class="row bg-hotpink text-center justify-content-center m-0">
-            <p>
+        <div class="bg-hotpink text-center">
+            <p class="py-2">
                 2020 All right rerved. Food House. Developed By.
                 <a href="https://vietcodedi.com/login/index.php">CSE485</a>
             </p>

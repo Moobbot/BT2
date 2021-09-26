@@ -40,22 +40,22 @@
     <section class="bg-gray-200 pb-10">
         <div class="container-lg">
             <div class="row mb-5 pt-5">
-                <h2 class="fw-bold">Manage Order</h2>
+                <h2 class="fw-bold">Dashboard</h2>
             </div>
-            <div class="row">
-                <div class="col-2 bg-white text-center">
+            <div class="row m-auto">
+                <div class="col bg-white text-center p-4">
                     <h2>4</h2>
                     <p>Categories</p>
                 </div>
-                <div class="col-2 bg-white text-center offset-1">
+                <div class="col bg-white text-center p-4 ms-5">
                     <h2>6</h2>
                     <p>Foods</p>
                 </div>
-                <div class="col-2 bg-white text-center offset-1">
+                <div class="col bg-white text-center p-4 ms-5">
                     <h2>3</h2>
                     <p>Total Orders</p>
                 </div>
-                <div class="col-2 bg-white text-center offset-1">
+                <div class="col bg-white text-center p-4 ms-5">
                     <h2>$36.00</h2>
                     <p>Revenue Generated</p>
                 </div>
@@ -64,8 +64,8 @@
     </section>
 
     <footer>
-        <div class="row bg-hotpink text-center justify-content-center m-0">
-            <p>
+        <div class="bg-hotpink text-center">
+            <p class="py-2">
                 2020 All right rerved. Food House. Developed By.
                 <a href="https://vietcodedi.com/login/index.php">CSE485</a>
             </p>
