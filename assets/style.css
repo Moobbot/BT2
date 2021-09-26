@@ -86,6 +86,13 @@ h3 {
 }
 
 
+/* Body */
+
+.img-max--w {
+    max-width: 10em;
+}
+
+
 /* Footer*/
 
 footer a {
